@@ -21,7 +21,6 @@ function pageLoad() {
   passenger1Name = ride[0].passengerDetails.first + ' ' + ride[0].passengerDetails.last
   passenger1Phone = ride[0].passengerDetails.phoneNumber
   passenger1NumberOfPassengers = ride[0].numberOfPassengers
-  console.log(passenger1NumberOfPassengers)
   passenger1PickupAddressLine1 = ride[0].pickupLocation.address
   passenger1PickupAddressLine2 = ride[0].pickupLocation.city + ', ' + ride[0].pickupLocation.state + ' ' + ride[0].pickupLocation.zip
   passenger1DropoffAddressLine1 = ride[0].dropoffLocation.address
@@ -30,7 +29,6 @@ function pageLoad() {
   passenger2Name = ride[1].passengerDetails.first + ' ' + ride[0].passengerDetails.last
   passenger2Phone = ride[1].passengerDetails.phoneNumber
   passenger2NumberOfPassengers = ride[1].numberOfPassengers
-  console.log(passenger2NumberOfPassengers)
   passenger2PickupAddressLine1 = ride[1].pickupLocation.address
   passenger2PickupAddressLine2 = ride[1].pickupLocation.city + ', ' + ride[1].pickupLocation.state + ' ' + ride[1].pickupLocation.zip
   passenger2DropoffAddressLine1 = ride[1].dropoffLocation.address
@@ -39,7 +37,6 @@ function pageLoad() {
   passenger3Name = ride[2].passengerDetails.first + ' ' + ride[2].passengerDetails.last
   passenger3Phone = ride[2].passengerDetails.phoneNumber
   passenger3NumberOfPassengers = ride[2].numberOfPassengers
-  console.log(passenger3NumberOfPassengers)
   passenger3PickupAddressLine1 = ride[2].pickupLocation.address
   passenger3PickupAddressLine2 = ride[2].pickupLocation.city + ', ' + ride[2].pickupLocation.state + ' ' + ride[2].pickupLocation.zip
   passenger3DropoffAddressLine1 = ride[2].dropoffLocation.address
